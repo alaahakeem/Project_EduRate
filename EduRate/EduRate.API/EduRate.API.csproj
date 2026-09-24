@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>EduRate.API</RootNamespace>
+    <UserSecretsId>edurate-api-secrets</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EduRate.Application\EduRate.Application.csproj" />
+    <ProjectReference Include="..\EduRate.Infrastructure\EduRate.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

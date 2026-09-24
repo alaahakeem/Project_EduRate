@@ -1,0 +1,14 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.db
+
+## Hangfire / logs
+*.log
+
+## OS
+.DS_Store
+Thumbs.db

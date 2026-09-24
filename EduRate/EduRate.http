@@ -1,0 +1,6 @@
+@EduRate_HostAddress = http://localhost:5232
+
+GET {{EduRate_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
